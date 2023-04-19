@@ -24,9 +24,9 @@ render={(item) => item}
 
 Props
 The List component takes the following props (required):
-items: an array of items to render in the list
-keyExtractor: a function that takes an item and returns a unique key for it
-render: a function that takes an item and returns the component to render for that item
+items: an array of items to render in the list.
+keyExtractor: a function that takes an item and returns a unique key for it.
+render: a function that takes an item and returns the component to render for that item.
 
 interfaces
 
