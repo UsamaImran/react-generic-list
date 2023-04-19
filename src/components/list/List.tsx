@@ -31,7 +31,7 @@ export function List<T>({
   };
 
   return (
-    <ul {...rest}>
+    <ul {...rest} style={{ listStyleType: 'none', ...rest.style }}>
       {items.map((item, index) => (
         <li
           key={keyExtractor(item, index)}
