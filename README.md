@@ -30,7 +30,8 @@ render: a function that takes an item and returns the component to render for th
 
 interfaces
 
-```type ContainerProps = React.DetailedHTMLProps<
+```
+type ContainerProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLUListElement>,
   HTMLUListElement
 >;
