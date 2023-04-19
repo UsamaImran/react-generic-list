@@ -15,13 +15,13 @@ To use the List component, you need to import it into your React component like 
 `import { List } from 'react-generic-list';`
 Then, you can use the component in your render function like this:
 
-`<List
+````<List
 items={[1, 2, 3, 4, 5, 6, 7]}
 keyExtractor={(item) => item}
 render={(item) => item}
 style={{ textDecoration: 'none' }}
 childProps={{ style: { textDecoration: 'none' } }}
-/>;`
+/>;```
 This will render a list of numbers from 1 to 7, with each item having no text decoration.
 
 Props
@@ -33,3 +33,4 @@ render: a function that takes an item and returns the component to render for th
 style: an object containing style properties for the list container
 childProps: an object containing props to pass down to each child component
 For more information, please refer to the react-generic-list package documentation.
+````
