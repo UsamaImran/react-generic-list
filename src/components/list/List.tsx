@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useRef, useState } from 'react';
+import React, { ReactNode } from 'react';
 
 type ContainerProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLUListElement>,
@@ -18,7 +18,7 @@ type ListProps<T> = {
   onItemSelect?: (item: T, index?: number | string) => void;
 } & ContainerProps;
 
-function List<T>({
+export function List<T>({
   items,
   render,
   keyExtractor,
@@ -44,5 +44,3 @@ function List<T>({
     </ul>
   );
 }
-
-export default List;
