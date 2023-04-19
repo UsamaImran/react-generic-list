@@ -33,4 +33,4 @@ render: a function that takes an item and returns the component to render for th
 style: an object containing style properties for the list container
 childProps: an object containing props to pass down to each child component
 For more information, please refer to the react-generic-list package documentation.
-````
+
